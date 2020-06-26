@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#submit-button").on("click", function () {
     var burgerInfo = {
-      burgerName: $("#make_burger").val().trim(),
+      burger_name: $("#new_burger").val().trim(),
     };
 
     $.ajax("/burger/create", {
@@ -18,7 +18,7 @@ $(document).ready(function () {
       id: $(this).attr("data-id"),
     };
 
-    $.ajax("burger/eat", {
+    $.ajax("/burger/eat", {
       type: "POST",
       data: devourInfo,
     }).then(function () {
