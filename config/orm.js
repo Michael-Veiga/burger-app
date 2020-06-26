@@ -11,7 +11,7 @@ var orm = {
   },
   // insert into table / column burger value
   // give priority to col name and burger
-  insertOne: function (tableInput, colName, burgerName) {
+  insertOne: function (tableInput, colName, burgerName, cb) {
     queryString = "INSERT INTO ?? (??) VALUES (?)";
     connection.query(queryString, [tableInput, colName, burgerName], function (
       err,
