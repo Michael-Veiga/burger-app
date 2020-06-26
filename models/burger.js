@@ -12,10 +12,10 @@ var burger = {
       callback(res);
     });
   },
-  // updateOne: function (burger_id, callback) {
-  //   orm.updateOne("burgers", "devoured", true, burger_id, function (res) {
-  //     callback(res);
-  //   });
-  // },
+  updateOne: function (burger_id, callback) {
+    orm.updateOne("burgers", "devoured", true, burger_id, function (res) {
+      callback(res);
+    });
+  },
 };
 module.exports = burger;

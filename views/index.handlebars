@@ -17,6 +17,7 @@
 
     <div class="col-md-6">
         <h4 class="card-header text-center">Burgers Consumed</h4>
+        <div class="card">
         <div class="card-body">
             {{#each burgers}}
             {{#if this.devoured}}
@@ -26,6 +27,7 @@
             </div>
             {{/if}}
             {{/each}}
+        </div>
         </div>
     </div>
 </div>
