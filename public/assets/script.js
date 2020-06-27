@@ -23,7 +23,7 @@ $(document).ready(function () {
       data: devourInfo,
     }).then(function () {
       console.log("devour the burger");
-      location.reload;
+      location.reload();
     });
   });
 });
