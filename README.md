@@ -54,4 +54,4 @@ Handlebars proved fairly difficult to use, but I figured it out after reviewing 
 
 ## Media
 
-![Image of deployed application]()
+![Image of deployed application](https://github.com/Michael-Veiga/burger-app/blob/master/public/assets/img/burger_center.JPG?raw=true)
